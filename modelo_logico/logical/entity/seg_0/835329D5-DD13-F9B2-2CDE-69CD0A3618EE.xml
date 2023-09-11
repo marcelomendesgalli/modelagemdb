@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADE7DFD5-DE38-A6E1-78FE-3E5312F3EE9B" name="CLIENTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="835329D5-DD13-F9B2-2CDE-69CD0A3618EE" name="PRODUTO">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:16:29 UTC</createdTime>
+<createdTime>2023-09-11 12:20:02 UTC</createdTime>
 <ownerDesignName>modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="24FA1194-A694-78EC-BCB2-438B5E59A721">
+<Attribute name="ID" id="3580649A-6AAD-F6D6-B6E4-FB008E3D7D7E">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:16:44 UTC</createdTime>
+<createdTime>2023-09-11 12:20:07 UTC</createdTime>
 <ownerDesignName>modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
@@ -27,23 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOME" id="85FCA324-10D3-6205-DA6C-D0B1D5905DB8">
+<Attribute name="NOME" id="08377A0D-ABCC-0BA9-4C3A-B5B592521C99">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:22:39 UTC</createdTime>
-<ownerDesignName>modelo_logico</ownerDesignName>
-<engineerTo>
-<item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ENDERECO" id="51C32D85-A3A3-30E3-14A4-CB1A87B2A87A">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:24:13 UTC</createdTime>
+<createdTime>2023-09-11 12:20:22 UTC</createdTime>
 <ownerDesignName>modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
@@ -55,23 +41,9 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TELEFONE" id="B71C0CD0-0E9D-62E5-5086-4D4380DC3032">
+<Attribute name="MARCA" id="FA5FCDE5-B036-2886-BF11-0B372BEAA6A7">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:25:18 UTC</createdTime>
-<ownerDesignName>modelo_logico</ownerDesignName>
-<engineerTo>
-<item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<ownDataTypeParameters>,12,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="EMAIL" id="10CD229B-0B0A-4A86-9909-D1E8904E894E">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:26:41 UTC</createdTime>
+<createdTime>2023-09-11 12:20:36 UTC</createdTime>
 <ownerDesignName>modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
@@ -80,12 +52,24 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CPF" id="45F20452-A393-EACE-7D4E-BAA6C35E88CD">
+<Attribute name="DESCRICAO" id="7D3AAED4-ADBB-A553-71A1-42B3B6F83564">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:27:36 UTC</createdTime>
+<createdTime>2023-09-11 12:20:47 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECO" id="8949D872-0401-D249-1B47-E109E4465D91">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:21:39 UTC</createdTime>
 <ownerDesignName>modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
@@ -94,21 +78,46 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORIA" id="04A03679-BA92-63FF-4DDF-BF0241A4EBAB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:21:53 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESP_TEC" id="1C96A406-05DA-23ED-6D2C-5151F6FB39F5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:22:07 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DA60B5DF-1583-385B-8989-47F26C9E794F" name="CLIENTE PK">
+<identifier id="8BB28667-DC97-42E6-CD9F-282C6C8CC569" name="PRODUTO PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:22:18 UTC</createdTime>
+<createdTime>2023-09-11 12:20:20 UTC</createdTime>
 <ownerDesignName>modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="2038A955-AD40-56B8-F69A-A2570D5E15BE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>24FA1194-A694-78EC-BCB2-438B5E59A721</attributeRef>
+<attributeRef>3580649A-6AAD-F6D6-B6E4-FB008E3D7D7E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
